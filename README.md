@@ -30,12 +30,10 @@ This project demonstrates basic data preprocessing techniques using a synthetic 
 
 The dummy dataset simulates customer purchase records with the following features:
 
-- `CustomerID`: Unique identifier for each customer
-- `Age`: Customer's age
-- `Gender`: Customer's gender (categorical: Male, Female)
-- `Annual Income (k$)`: Customer's annual income in thousands
+- `Country`: country name (categorical)
+- `Age`: Customer's age (int)
+- `salary`: Customer's salary (int) 
 - `Purchased`: Whether the customer made a purchase (Yes/No)
-- `Purchase Amount`: The amount spent in their purchase
 
 
 
@@ -45,10 +43,9 @@ The dummy dataset simulates customer purchase records with the following feature
 
 - Import the dataset
 - Handle missing values
-- Encode categorical variables (`Gender`, `Purchased`)
-- Split data into training and testing sets
-- Scale numerical features (`Age`, `Annual Income`, `Purchase Amount`)
-- Visualize data distributions (optional)
+- Encode categorical variables (`Country`, `Purchased`)
+- finding relation between each independednt feature and target feature
+- Visualize data distributions to extract meaningful insights from raw data
 
 ---
 
